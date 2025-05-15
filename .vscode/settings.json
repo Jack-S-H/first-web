@@ -1,5 +1,6 @@
 {
     "terminal.integrated.env.windows": {
         
-    }
+    },
+    "files.autoSave": "onWindowChange"
 }
