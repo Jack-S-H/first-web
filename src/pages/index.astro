@@ -1,5 +1,8 @@
 ---
-import '../styles/global.css';
+import "../styles/global.css";
+// import Navigation from "../components/Navigation.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
 const pageTitle = "Home Page";
 ---
 
@@ -12,8 +15,12 @@ const pageTitle = "Home Page";
 		<title>{pageTitle}</title>
 	</head>
 	<body>
-		<a href="/first-web/about/">About</a>
-		<a href="/first-web/blog/">Blog</a>
+		<Header />
+		<!-- <Navigation /> -->
 		<h1>{pageTitle}</h1>
+		<Footer />
+		<script>
+			import "../scripts/menu.js";
+		</script>
 	</body>
 </html>
